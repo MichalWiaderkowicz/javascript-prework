@@ -65,7 +65,7 @@ function playGame(playerInput){
             printMessage('Remis!');     
        }
        else if( argComputerMove =='kamień' && argPlayerMove == 'nieznany ruch'){
-            printMessage('Spróbuj ponownie wybierając 1, 2 lub 3!');     
+            printMessage('Spróbuj ponownie wybierając kamień, papier lub nożyce!');     
        }
        else if( argComputerMove =='papier' && argPlayerMove == 'nożyce'){
             printMessage('Ty wygrywasz!');     
@@ -77,7 +77,7 @@ function playGame(playerInput){
             printMessage('Remis!');     
        }
        else if( argComputerMove =='papier' && argPlayerMove == 'nieznany ruch'){
-            printMessage('Spróbuj ponownie wybierając 1, 2 lub 3!');     
+            printMessage('Spróbuj ponownie wybierając kamień, papier lub nożyce!');     
        }
        else if( argComputerMove =='nożyce' && argPlayerMove == 'kamień'){
             printMessage('Ty wygrywasz!');     
@@ -89,7 +89,7 @@ function playGame(playerInput){
             printMessage('Remis!');     
        }
        else if( argComputerMove =='nożyce' && argPlayerMove == 'nieznany ruch'){
-            printMessage('Spróbuj ponownie wybierając 1, 2 lub 3!');     
+            printMessage('Spróbuj ponownie wybierając kamień, papier lub nożyce!');     
        }  
      }
      displayResult(computerMove, playerMove);
