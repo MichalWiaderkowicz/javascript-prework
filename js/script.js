@@ -1,3 +1,4 @@
+  
      function playGame(playerInput){
           clearMessages()
           function getMoveName(argMoveId){
@@ -105,5 +106,5 @@
      document.getElementById('play-scissors').addEventListener('click', function(){
           playGame(3);
      });   
-}
+
 
